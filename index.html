@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mapa de Colombia</title>
 </head>
 <body>
     <h1>Mapa de colombia</h1>
     <section id="galeria">
     <h2>Mapa interactivo</h2>
-    <img src="images/mapa-politico-de-colombia.jpg" alt="Mapa" title="Mapa" >
-    <area shape="rect" coords="481,651,496,651,510,643,529,615,539,625,529,640,552,630,579,620,595,597,594,572,608,577,620,554,610,527,590,526,587,508,580,481,557,466,533,475,513,460,498,460,490,485,486,529,480,541,467,554,447,565,440,587,435,603,442,615,457,630,472,640" href="santander.html" alt="Zona activa">
+        Este es un mapa interactivo en donde podras encontrar información sobre los sitios turisticos, comida tipica, informacion economica y ocupacional de los siguientes departamentos:
+        <ul>
+            <li>Santander</li>
+            <li>Antioquia</li>
+            <li>Valle del cauca</li>
+        </ul>
+    <img src="images/mapa-politico-de-colombia.jpg" alt="Mapa" title="Mapa" usemap="#mapa-colombia">
+    <map name="mapa-colombia">
+        <area shape="poly" coords="481,651,496,651,510,643,529,615,539,625,529,640,552,630,579,620,595,597,594,572,608,577,620,554,610,527,590,526,587,508,580,481,557,466,533,475,513,460,498,460,490,485,486,529,480,541,467,554,447,565,440,587,435,603,442,615,457,630,472,640" href="santander.html" alt="Zona activa">
+        <area shape="poly"  coords="287,673,277,653,277,633,265,622,257,609,243,607,232,608,218,601,212,577,206,557,208,541,210,528,220,527,233,531,238,513,226,501,215,492,208,484,199,475,182,453,193,411,204,425,203,437,212,439,215,422,214,400,207,387,198,383,214,374,225,367,235,362,243,355,253,372,266,390,257,413,241,455,249,495,268,496,295,497,309,487,325,460,349,442,376,427,392,424,400,418,417,431,431,459,425,475,426,494,441,493,435,512,442,522,453,531,465,521,482,500,481,509,482,527,467,544,451,556,431,572,432,582,422,596,415,610,411,623,409,638,403,652,379,654,364,670,347,676,337,657,324,656,320,668" href="antioquia.html" alt="Zona activa">
+
+        <area shape="poly" coords="159,822,149,808,150,792,164,794,175,799,189,806,209,811,227,816,239,807,237,791,235,775,244,759,254,743,266,735,276,726,288,731,300,741,312,746,314,756,305,763,304,780,310,788,312,802,318,810,312,818,301,827,295,840,291,861,287,875,284,888,250,881,243,896,231,903,217,905,208,913,192,905,174,901,160,892,157,878,165,862,177,850,181,837,185,825,171,830,172,810" href="valledelcauca.html" alt="Zona activa">
+
+    </map>
     </section>
 </body>
 </html>
